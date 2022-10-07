@@ -1,0 +1,31 @@
+url:http://localhost:8080
+
+redirect url: http://localhost:8080/callback
+
+
+clientId:945029816857-js0e82g3jI0b42g054j0h91v6reovg5r.apps.googleusercontent.com
+
+
+clientSecret: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
+
+
+
+
+
+
+
+
+
+
+51453179011-qg1rs90infbir44fg7plkp995m5024vv.apps.googleusercontent.com
+
+
+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
+
+
+        window.gapi.load('client:auth2', ()=>{
+            window.gapi.auth2.init({
+                client_id:'51453179011-qg1rs90infbir44fg7plkp995m5024vv.apps.googleusercontent.com',
+                scope: 'email'
+            });
+        });
